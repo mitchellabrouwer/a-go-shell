@@ -1,0 +1,35 @@
+# Go binary files
+/bin/
+/obj/
+
+# Go module files
+/go.sum
+/go.mod
+
+# Dependencies directory
+/vendor/
+
+# Build output
+*.exe
+*.out
+*.test
+
+# IDE or editor-specific files
+.idea/
+.vscode/
+
+# Neovim-specific files
+*swap
+*backup
+*.un~ 
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage file
+*.coverage
+
+# Golang workspace-specific files
+*.log
+
